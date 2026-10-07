@@ -1,0 +1,33 @@
+{
+  "semi": false,
+  "singleQuote": true,
+  "sortImports": {
+    "newlinesBetween": false,
+    "groups": [
+      "value-builtin",
+      "value-external",
+      "type-external",
+      { "newlinesBetween": true },
+      "types",
+      "utils",
+      { "newlinesBetween": true },
+      "services",
+      { "newlinesBetween": true },
+      "unknown"
+    ],
+    "customGroups": [
+      {
+        "groupName": "types",
+        "elementNamePattern": ["**/types", "**/types/**"]
+      },
+      {
+        "groupName": "utils",
+        "elementNamePattern": ["**/utils", "**/utils/**"]
+      },
+      {
+        "groupName": "services",
+        "elementNamePattern": ["**/services", "**/services/**"]
+      }
+    ]
+  }
+}

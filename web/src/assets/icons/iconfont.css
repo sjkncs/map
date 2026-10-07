@@ -1,0 +1,152 @@
+@font-face {
+  font-family: 'iconfont'; /* Project id 5164487 */
+  src: url('iconfont.ttf?t=1788427510543') format('truetype');
+}
+
+.iconfont {
+  font-family: 'iconfont' !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-retry:before {
+  content: '\e696';
+}
+
+.icon-agent:before {
+  content: '\e62e';
+}
+
+.icon-ask:before {
+  content: '\e608';
+}
+
+.icon-model:before {
+  content: '\e8b6';
+}
+
+.icon-stop:before {
+  content: '\e607';
+}
+
+.icon-send:before {
+  content: '\e65e';
+}
+
+.icon-railway:before {
+  content: '\e754';
+}
+
+.icon-straight:before {
+  content: '\e61f';
+}
+
+.icon-slow:before {
+  content: '\e6ee';
+}
+
+.icon-bus:before {
+  content: '\e62d';
+}
+
+.icon-backwards-left:before {
+  content: '\e605';
+}
+
+.icon-backwards-right:before {
+  content: '\e606';
+}
+
+.icon-left-back:before {
+  content: '\ea01';
+}
+
+.icon-towards-left:before {
+  content: '\e66f';
+}
+
+.icon-towards-right:before {
+  content: '\e674';
+}
+
+.icon-keep-right:before {
+  content: '\e602';
+}
+
+.icon-keep-left:before {
+  content: '\e603';
+}
+
+.icon-leave-circle:before {
+  content: '\e658';
+}
+
+.icon-enter-circle:before {
+  content: '\e657';
+}
+
+.icon-turn-right:before {
+  content: '\e62b';
+}
+
+.icon-turn-left:before {
+  content: '\e62c';
+}
+
+.icon-arrive:before {
+  content: '\e8ae';
+}
+
+.icon-add:before {
+  content: '\e600';
+}
+
+.icon-transfer:before {
+  content: '\e604';
+}
+
+.icon-walk:before {
+  content: '\e74a';
+}
+
+.icon-drive:before {
+  content: '\e6ae';
+}
+
+.icon-ride:before {
+  content: '\e61c';
+}
+
+.icon-edit:before {
+  content: '\e65d';
+}
+
+.icon-love:before {
+  content: '\e611';
+}
+
+.icon-route:before {
+  content: '\e649';
+}
+
+.icon-delete:before {
+  content: '\e642';
+}
+
+.icon-password:before {
+  content: '\e601';
+}
+
+.icon-username:before {
+  content: '\e63c';
+}
+
+.icon-location:before {
+  content: '\e640';
+}
+
+.icon-search:before {
+  content: '\e64e';
+}

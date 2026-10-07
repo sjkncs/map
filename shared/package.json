@@ -1,0 +1,7 @@
+{
+  "name": "@map/shared",
+  "type": "module",
+  "dependencies": {
+    "zod": "^4.6.1"
+  }
+}

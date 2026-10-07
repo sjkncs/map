@@ -1,0 +1,13 @@
+{
+  "appId": "com.lovelymai.map",
+  "electronVersion": "44.4.2",
+  "directories": {
+    "output": "dist"
+  },
+  "files": ["out"],
+  "mac": {
+    "target": "dmg",
+    "category": "public.app-category.navigation",
+    "identity": null
+  }
+}

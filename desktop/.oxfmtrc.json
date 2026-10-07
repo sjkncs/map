@@ -1,0 +1,59 @@
+{
+  "semi": false,
+  "singleQuote": true,
+  "sortImports": {
+    "newlinesBetween": false,
+    "groups": [
+      "value-builtin",
+      "value-external",
+      "type-external",
+      {
+        "newlinesBetween": true
+      },
+      "types",
+      "utils",
+      "components",
+      "assets",
+      "apis",
+      "stores",
+      {
+        "newlinesBetween": true
+      },
+      "modules",
+      {
+        "newlinesBetween": true
+      },
+      "unknown"
+    ],
+    "customGroups": [
+      {
+        "groupName": "types",
+        "elementNamePattern": ["**/types","**/types/**"]
+      },
+      {
+        "groupName": "utils",
+        "elementNamePattern": ["**/utils","**/utils/**"]
+      },
+      {
+        "groupName": "components",
+        "elementNamePattern": ["**/components", "**/components/**"]
+      },
+      {
+        "groupName": "assets",
+        "elementNamePattern": ["**/assets", "**/assets/**"]
+      },
+      {
+        "groupName": "apis",
+        "elementNamePattern": ["**/apis", "**/apis/**"]
+      },
+      {
+        "groupName": "stores",
+        "elementNamePattern": ["**/stores", "**/stores/**"]
+      },
+      {
+        "groupName": "modules",
+        "elementNamePattern": ["**/modules", "**/modules/**"]
+      }
+    ]
+  }
+}

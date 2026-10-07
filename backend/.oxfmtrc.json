@@ -1,0 +1,46 @@
+{
+  "semi": false,
+  "singleQuote": true,
+  "sortImports": {
+    "newlinesBetween": false,
+    "groups": [
+      "value-builtin",
+      "value-external",
+      "type-external",
+      { "newlinesBetween": true },
+      "types",
+      "utils",
+      "apis",
+      "tables",
+      "services",
+      "modules",
+      "unknown"
+    ],
+    "customGroups": [
+      {
+        "groupName": "types",
+        "elementNamePattern": ["**/types", "**/types/**"]
+      },
+      {
+        "groupName": "utils",
+        "elementNamePattern": ["**/utils", "**/utils/**"]
+      },
+      {
+        "groupName": "apis",
+        "elementNamePattern": ["**/apis", "**/apis/**"]
+      },
+      {
+        "groupName": "tables",
+        "elementNamePattern": ["**/tables", "**/tables/**"]
+      },
+      {
+        "groupName": "services",
+        "elementNamePattern": ["**/services", "**/services/**"]
+      },
+      {
+        "groupName": "modules",
+        "elementNamePattern": ["**/modules", "**/modules/**"]
+      }
+    ]
+  }
+}

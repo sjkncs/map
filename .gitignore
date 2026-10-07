@@ -1,0 +1,11 @@
+# 系统
+.DS_Store
+
+# 项目
+node_modules
+out
+dist
+public
+model/model
+config.ts
+bge-small-zh

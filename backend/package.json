@@ -1,0 +1,32 @@
+{
+  "name": "backend",
+  "type": "module",
+  "scripts": {
+    "start": "brew services run postgresql && tsx ./src/App.ts",
+    "stop": "brew services stop postgresql",
+    "check": "tsc"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^4.2.0",
+    "@lovelymai/agent": "^1.2.5",
+    "axios": "^1.13.2",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "openai": "^6.38.0",
+    "postgres": "^3.4.9",
+    "tsx": "^4.23.12",
+    "ws": "^8.20.1",
+    "zod": "^4.6.1"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^26.3.0",
+    "@types/ws": "^8.18.1",
+    "typescript": "^6.0.3"
+  }
+}
